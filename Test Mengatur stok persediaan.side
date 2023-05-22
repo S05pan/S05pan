@@ -1,0 +1,317 @@
+{
+  "id": "2e94766c-4fc2-4594-ba4e-97206c11efe1",
+  "version": "2.0",
+  "name": "Test Mengatur stok persediaan",
+  "url": "https://app2.jubelio.com/home/inventory/review",
+  "tests": [{
+    "id": "803fb428-5447-4722-a1d8-cf88207f194c",
+    "name": "Mengatur Stok Persediaan",
+    "commands": [{
+      "id": "77d26747-feff-46dd-85e4-52f5017d115b",
+      "comment": "",
+      "command": "open",
+      "target": "https://app2.jubelio.com/home/inventory/review",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bf600a2-a00d-4f5b-9204-b7d9de6a1e96",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcfdd4aa-3c85-4c7c-b748-74c1ae93052f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Persediaan",
+      "targets": [
+        ["linkText=Persediaan", "linkText"],
+        ["css=.active:nth-child(2) > .metismenu-container > .metismenu-item:nth-child(2) > .metismenu-link", "css:finder"],
+        ["xpath=//div[@id='wrapper']/nav/div/div/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/home/inventory')])[9]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Persediaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d8f08d4-8bca-4265-9ce2-9eaa5f8c80af",
+      "comment": "",
+      "command": "click",
+      "target": "css=span .react-grid-checkbox-label",
+      "targets": [
+        ["css=span .react-grid-checkbox-label", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div[4]/div/div/span/div/label", "xpath:idRelative"],
+        ["xpath=//span/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03a269c4-2f7e-46cc-92ac-35d1233e68b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-muted",
+      "targets": [
+        ["css=.text-muted", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div[3]/div/div/div[2]/div/div/div[2]/div[2]/div/div[4]/div/div/span/div/span/i", "xpath:idRelative"],
+        ["xpath=//span/div/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45d9c056-4cfe-4f3a-b77b-f19924d643c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-muted",
+      "targets": [
+        ["css=.text-muted", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div[3]/div/div/div[2]/div/div/div[2]/div[2]/div/div[4]/div/div/span/div/span/i", "xpath:idRelative"],
+        ["xpath=//span/div/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e3c159-5435-43d2-97a5-b990bb26cb4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row-selected .btn-link",
+      "targets": [
+        ["css=.row-selected .btn-link", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div[3]/div/div/div[2]/div/div/div[2]/div/div/div[5]/div/div/span/span/button", "xpath:idRelative"],
+        ["xpath=//span/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'NAS-GOR-KAM-DAU-ASI-1 P-700-NAS-COK-560')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f85fe9f-bc1a-41b3-a7d6-1b163a8b2e24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pull-right > .ladda-button > .ladda-label",
+      "targets": [
+        ["css=.pull-right > .ladda-button > .ladda-label", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div[3]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tutup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89158b25-de1c-4c7e-8464-9ac6aa26a740",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pull-right > .ladda-button > .ladda-label",
+      "targets": [
+        ["css=.pull-right > .ladda-button > .ladda-label", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div[3]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tutup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb83e56b-87d7-444e-9c02-1491780b0312",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ladda-button:nth-child(2)",
+      "targets": [
+        ["css=.ladda-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Penyesuaian Persediaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13264cc9-a22a-433d-8bbc-e4150fff3b5e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ladda-button:nth-child(2)",
+      "targets": [
+        ["css=.ladda-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Penyesuaian Persediaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be32ffc1-3f6a-4374-ab51-8483f5763d45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ladda-button:nth-child(2)",
+      "targets": [
+        ["css=.ladda-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Penyesuaian Persediaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d418e53-acfe-4415-aa5c-21e5abe8434a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ladda-button:nth-child(2)",
+      "targets": [
+        ["css=.ladda-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Penyesuaian Persediaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dee0e68-1352-45fc-838c-50df796419e8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(2) .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "22 Mei 2023"
+    }, {
+      "id": "9fbddaac-e076-43f5-964f-45839af3fb4d",
+      "comment": "",
+      "command": "click",
+      "target": "name=note",
+      "targets": [
+        ["name=note", "name"],
+        ["css=.col-md-6:nth-child(1) > .form-group .form-control", "css:finder"],
+        ["xpath=//textarea[@name='note']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a86166da-fe89-4c1f-9efa-6cab0ac437ce",
+      "comment": "",
+      "command": "type",
+      "target": "name=note",
+      "targets": [
+        ["name=note", "name"],
+        ["css=.col-md-6:nth-child(1) > .form-group .form-control", "css:finder"],
+        ["xpath=//textarea[@name='note']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Silahkan dibeli sebelum stok menipis"
+    }, {
+      "id": "2cdac221-f002-4848-8a60-e1cf845bddb7",
+      "comment": "",
+      "command": "click",
+      "target": "name=item_adj_no",
+      "targets": [
+        ["name=item_adj_no", "name"],
+        ["css=.col-md-6:nth-child(2) > .form-group:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='item_adj_no']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81f01979-ab41-4bbd-a716-56e6f8a2d7b1",
+      "comment": "",
+      "command": "click",
+      "target": "name=item_adj_no",
+      "targets": [
+        ["name=item_adj_no", "name"],
+        ["css=.col-md-6:nth-child(2) > .form-group:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='item_adj_no']", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28d6938c-df25-4a92-acbe-66b8438cfe51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(2) .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "600c3132-8946-4547-aa7f-267e34154fab",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(2) .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e61856f3-d2a3-4722-b57e-05d4dd1a4605",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(2) .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f551ec0-1a2a-4056-8cf8-301d581f780b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(2) .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96e8d3e2-5a3f-47f8-a3a2-3d41fba1c0c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-error .form-control",
+      "targets": [
+        ["css=.has-error .form-control", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5132a55-fff4-4757-ad3d-e913d798cf8b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pika-prev",
+      "targets": [
+        ["css=.pika-prev", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='pika-title-yf']/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Bulan Sebelumnya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a471de5c-f5d4-4357-9b7b-f6fcaa4c004f",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.pika-prev",
+      "targets": [
+        ["css=.pika-prev", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='pika-title-uw']/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Bulan Sebelumnya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bb5c3b54-12f9-4c08-8f7a-5c354a21429c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["803fb428-5447-4722-a1d8-cf88207f194c"]
+  }],
+  "urls": [],
+  "plugins": []
+}
